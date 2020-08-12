@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onetechlabs/Public/Programming-Projects/Android/meet_me/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/home/onetechlabs/Public/Programming-Projects/Android/meet_me/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

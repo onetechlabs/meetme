@@ -4,6 +4,7 @@ import 'package:agora_rtc_engine/agora_rtc_engine.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 
+import './about_app.dart';
 import './call.dart';
 
 class IndexPage extends StatefulWidget {
@@ -12,6 +13,7 @@ class IndexPage extends StatefulWidget {
 }
 
 class IndexState extends State<IndexPage> {
+
   /// create a channelController to retrieve text value
   final _channelController = TextEditingController();
 
@@ -30,10 +32,32 @@ class IndexState extends State<IndexPage> {
   }
 
   @override
+  void handleHeadMenuClick(String value) {
+    switch (value) {
+      case 'About App':
+        Navigator.push(context,MaterialPageRoute(builder: (context) => AboutApp()));
+        break;
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Meet Me'),
+        actions: <Widget>[
+          PopupMenuButton<String>(
+            onSelected: handleHeadMenuClick,
+            itemBuilder: (BuildContext context) {
+              return {'About App'}.map((String choice) {
+                return PopupMenuItem<String>(
+                  value: choice,
+                  child: Text(choice),
+                );
+              }).toList();
+            },
+          ),
+        ],
       ),
       body: Center(
         child: Container(
@@ -86,14 +110,6 @@ class IndexState extends State<IndexPage> {
                       value: _selectedRole,
                       onChanged: (newValue) {
                         setState(() {
-                          /**
-                           *
-                              if(newValue=="Broadcaster"){
-                              _role = ClientRole.Broadcaster;
-                              }else{
-                              _role = ClientRole.Audience;
-                              }
-                           */
                           _selectedRole = newValue;
                           if(newValue=="Broadcaster"){
                             _role_message = "Pada Mode ini Anda dapat Berkomunikasi dengan Pengguna Lain";
@@ -141,6 +157,7 @@ class IndexState extends State<IndexPage> {
                   ],
                 ),
               )
+
             ],
           ),
         ),
@@ -191,3 +208,4 @@ class IndexState extends State<IndexPage> {
     );
   }
 }
+

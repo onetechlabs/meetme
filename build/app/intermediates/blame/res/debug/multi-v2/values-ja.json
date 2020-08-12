@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onetechlabs/Public/Programming-Projects/Android/meet_me/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+            "outputFile": "/home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "/home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/8a8d6b85480073d0261e9a15380ebe0c/res/values-ja/values-ja.xml",

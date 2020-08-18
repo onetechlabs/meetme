@@ -77,7 +77,7 @@ class AboutAppState extends State<AboutApp> {
                                     'Meet Me',
                                     textAlign: TextAlign.center,
                                     overflow: TextOverflow.ellipsis,
-                                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: HexColor.fromHex('#A4A7A5')),
+                                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: HexColor.fromHex('#da3e1c')),
                                   ),
                                 )
                             ],
@@ -105,9 +105,9 @@ class AboutAppState extends State<AboutApp> {
                                   bottom: 20,
                                 ),
                                 child: Text(
-                                  'video communications, with an easy, reliable cloud platform for video and audio conferencing',
+                                  'Video communications, with an easy, reliable cloud platform for video and audio conferencing',
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(fontSize: 14, color: HexColor.fromHex('#A4A7A5')),
+                                  style: TextStyle(fontSize: 14, color: HexColor.fromHex('#a7a7a7')),
                                 ),
                               )
                             ],
@@ -137,7 +137,7 @@ class AboutAppState extends State<AboutApp> {
                                 child: Text(
                                   'Copyright \u00a9 2020 Onetechlabs\nAll right reserved.',
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(fontSize: 16, color: HexColor.fromHex('#A4A7A5')),
+                                  style: TextStyle(fontSize: 16, color: HexColor.fromHex('#a7a7a7')),
                                 ),
                               )
                             ],

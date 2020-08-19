@@ -168,10 +168,14 @@ class SignInState extends State<SignIn> {
                                   width: 100,// Not sure what to put here!
                                   child: Column(
                                     mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [new Image.asset(
-                                      'assets/images/MeetMe.png',
-                                      fit: BoxFit.fill, // I thought this would fill up my Container but it doesn't
-                                    ),
+                                    children: [
+                                      Padding(
+                                        padding: EdgeInsets.all(10.0),
+                                        child: new Image.asset(
+                                          'assets/images/MeetMe.png',
+                                          fit: BoxFit.fill, // I thought this would fill up my Container but it doesn't
+                                        ),
+                                      )
                                     ],
                                   )
                               ),

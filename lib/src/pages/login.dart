@@ -5,6 +5,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import "package:http/http.dart" as http;
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import './index.dart';
 
 GoogleSignIn _googleSignIn = GoogleSignIn(
   scopes: <String>[
@@ -71,21 +72,77 @@ class SignInState extends State<SignIn> {
   Widget _buildBody() {
     if (_currentUser != null) {
       return Column(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
-          ListTile(
-            leading: GoogleUserCircleAvatar(
-              identity: _currentUser,
+          Container(
+            constraints: BoxConstraints(minWidth: double.infinity, minHeight: 190),
+            decoration: new BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage("assets/images/congratulations.png"),
+                fit: BoxFit.cover,
+              ),
             ),
-            title: Text(_currentUser.displayName ?? ''),
-            subtitle: Text(_currentUser.email ?? ''),
+            child: null
           ),
-          const Text("Signed in successfully."),
-          Text(_contactText ?? ''),
-          RaisedButton(
-            child: const Text('SIGN OUT'),
-            onPressed: _handleSignOut,
+          Padding(
+            padding: EdgeInsets.only(top:20,bottom: 10,left: 10,right: 10),
+            child: Center(
+              child: Text(
+                "Selamat Datang",
+                style: TextStyle(fontSize: 25, color: Color.fromRGBO(23, 134, 190, 1)),
+                textAlign: TextAlign.center,
+              ),
+            )
           ),
+          Center(
+            child: new ListView(
+                shrinkWrap: true,
+                padding: const EdgeInsets.only(bottom:10.0),
+                children: [
+                  Center(
+                      child: ListTile(
+                        leading: GoogleUserCircleAvatar(
+                          identity: _currentUser,
+                        ),
+                        title: Text(_currentUser.displayName ?? ''),
+                        subtitle: Text(_currentUser.email ?? ''),
+                      ),
+                  ),
+                ]
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(top:5,bottom: 30,left: 30,right: 30),
+            child: Text(
+              "Untuk melanjutkan ke tampilan utama silahkan klik lanjutkan untuk batal klik kembali",
+              style: TextStyle(fontSize: 16, color: Color.fromRGBO(23, 134, 190, 1)),
+            ),
+          ),
+          Row(
+            children: [
+              Padding(
+                  padding: EdgeInsets.only(top:5,bottom: 30,left: 30,right: 30),
+                  child: RaisedButton.icon(
+                      color: Colors.lightBlue,
+                      onPressed: ()=>{
+                        Navigator.push(context,MaterialPageRoute(builder: (context) => IndexPage()))
+                      }, icon: Icon(
+                    Icons.add_to_home_screen,
+                    color: Colors.white,
+                    size: 30.0,
+                  ), label: Text("Lanjutkan", style: TextStyle(fontSize: 16, color: Colors.white)))
+              ),
+              Padding(
+                  padding: EdgeInsets.only(top:5,bottom: 30),
+                  child: RaisedButton.icon(
+                      color: Colors.red,
+                      onPressed: _handleSignOut, icon: Icon(
+                    Icons.add_to_home_screen,
+                    color: Colors.white,
+                    size: 30.0,
+                  ), label: Text("Batalkan", style: TextStyle(fontSize: 16, color: Colors.white)))
+              ),
+            ],
+          )
         ],
       );
     } else {

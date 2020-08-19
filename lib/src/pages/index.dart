@@ -95,7 +95,7 @@ class IndexState extends State<IndexPage> {
   @override
   void handleHeadMenuClick(String value) {
     switch (value) {
-      case 'About App':
+      case 'About':
         Navigator.push(context,MaterialPageRoute(builder: (context) => AboutApp()));
         break;
       case 'Sign Out':
@@ -113,7 +113,7 @@ class IndexState extends State<IndexPage> {
           PopupMenuButton<String>(
             onSelected: handleHeadMenuClick,
             itemBuilder: (BuildContext context) {
-              return {'About App', 'Sign Out'}.map((String choice) {
+              return {'About', 'Sign Out'}.map((String choice) {
                 return PopupMenuItem<String>(
                   value: choice,
                   child: Text(choice),

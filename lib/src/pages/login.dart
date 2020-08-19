@@ -56,12 +56,13 @@ class SignInState extends State<SignIn> {
         _currentUser = account;
       });
 
-      saveData(_currentUser.email, _currentUser.displayName, _currentUser.photoUrl);
+      saveData(_currentUser.id,_currentUser.email, _currentUser.displayName, _currentUser.photoUrl);
     });
     _googleSignIn.signInSilently();
   }
-  Future<void> saveData(em_g,dn_g, pu_g) async{
+  Future<void> saveData(id_g,em_g,dn_g,pu_g) async{
     SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setString("id_google", id_g);
     prefs.setString("email_google", em_g);
     prefs.setString("displayname_google", dn_g);
     prefs.setString("photourl_google", pu_g);

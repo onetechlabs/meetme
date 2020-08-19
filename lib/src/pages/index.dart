@@ -14,6 +14,7 @@ class IndexPage extends StatefulWidget {
 }
 
 class IndexState extends State<IndexPage> {
+  String _id_google;
   String _photourl_google;
   String _email_google;
   String _displayname_google;
@@ -37,6 +38,7 @@ class IndexState extends State<IndexPage> {
     SharedPreferences preferences = await SharedPreferences.getInstance();
 
     setState(() {
+      _id_google = preferences.getString("id_google");
       _photourl_google = preferences.getString("photourl_google");
       _displayname_google = preferences.getString("displayname_google");
       _email_google = preferences.getString("email_google");
@@ -150,7 +152,7 @@ class IndexState extends State<IndexPage> {
           child: Column(
             children: <Widget>[
               Container(
-                constraints: BoxConstraints(minWidth: double.infinity, minHeight: 190),
+                constraints: BoxConstraints(minWidth: double.infinity, minHeight: 165),
                 decoration: new BoxDecoration(
                     color: Colors.blue,
                     image: DecorationImage(
@@ -210,7 +212,7 @@ class IndexState extends State<IndexPage> {
                               child: Column(
                                 children: [
                                   Padding(
-                                    padding: EdgeInsets.all(20.0),
+                                    padding: EdgeInsets.all(10.0),
                                     child: Align(
                                         alignment: Alignment.bottomCenter,
                                         child: Container(
@@ -219,8 +221,9 @@ class IndexState extends State<IndexPage> {
                                               Column(
                                                 children: [
                                                   Text(
-                                                    "Bersiap Memulai Percakapan?",
+                                                    "Privat Saluran ID\n("+_id_google+")",
                                                     style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold, color: Color.fromRGBO(23, 134, 190, 1)),
+                                                    textAlign: TextAlign.center,
                                                   )
                                                 ],
                                               ),

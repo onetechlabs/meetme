@@ -5,6 +5,7 @@ INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_andro
 INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
 INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
 MERGED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:shared_preferences] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:permission_handler] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:google_sign_in] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/0b31c988da97a1c77b9545e9b248bec3/AndroidManifest.xml:17:1-22:12
@@ -173,6 +174,8 @@ INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_andro
 INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
 MERGED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44

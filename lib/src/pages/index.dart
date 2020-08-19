@@ -4,7 +4,7 @@ import 'package:agora_rtc_engine/agora_rtc_engine.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-
+import 'package:shared_preferences/shared_preferences.dart';
 import './about_app.dart';
 import './call.dart';
 
@@ -14,6 +14,9 @@ class IndexPage extends StatefulWidget {
 }
 
 class IndexState extends State<IndexPage> {
+  String _photourl_google;
+  String _email_google;
+  String _displayname_google;
   static final List<String> imgSlider = [
     'slider0.png',
     'slider1.png',
@@ -28,6 +31,24 @@ class IndexState extends State<IndexPage> {
   List<String> _roles = ['Broadcaster', 'Audience']; // Option 2
   String _selectedRole; // Option 2
   ClientRole _role = ClientRole.Broadcaster;
+
+  getPref()async{
+
+    SharedPreferences preferences = await SharedPreferences.getInstance();
+
+    setState(() {
+      _photourl_google = preferences.getString("photourl_google");
+      _displayname_google = preferences.getString("displayname_google");
+      _email_google = preferences.getString("email_google");
+    });
+
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    getPref();
+  }
 
   final CarouselSlider autoPlayImage = CarouselSlider(
     items: imgSlider.map((fileImage) {
@@ -148,21 +169,21 @@ class IndexState extends State<IndexPage> {
                               children: [
                                 CircleAvatar(
                                   radius: 50,
-                                  backgroundImage: AssetImage(
-                                      'assets/images/orang.jpeg'
+                                  backgroundImage: NetworkImage(
+                                      _photourl_google
                                   ),
                                 ),
                                 Padding(
                                   padding: EdgeInsets.only(top:5),
                                   child: Text(
-                                      "Muhammad Ridwan",
+                                    _displayname_google,
                                       style: TextStyle(fontSize: 16, color: Color.fromRGBO(255, 255, 255, 1)),
                                   ),
                                 ),
                                 Padding(
                                   padding: EdgeInsets.only(top:5,bottom:5),
                                   child: Text(
-                                    "mridwan339@gmail.com",
+                                    _email_google,
                                     style: TextStyle(fontSize: 12, color: Color.fromRGBO(255, 255, 255, 1)),
                                   ),
                                 )

@@ -6,6 +6,7 @@ import "package:http/http.dart" as http;
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import './index.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 GoogleSignIn _googleSignIn = GoogleSignIn(
   scopes: <String>[
@@ -46,7 +47,6 @@ class SignInState extends State<SignIn> {
   );
 
   GoogleSignInAccount _currentUser;
-  String _contactText;
   final random = new Random();
   @override
   void initState() {
@@ -55,8 +55,16 @@ class SignInState extends State<SignIn> {
       setState(() {
         _currentUser = account;
       });
+
+      saveData(_currentUser.email, _currentUser.displayName, _currentUser.photoUrl);
     });
     _googleSignIn.signInSilently();
+  }
+  Future<void> saveData(em_g,dn_g, pu_g) async{
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setString("email_google", em_g);
+    prefs.setString("displayname_google", dn_g);
+    prefs.setString("photourl_google", pu_g);
   }
 
   Future<void> _handleSignIn() async {
@@ -74,24 +82,24 @@ class SignInState extends State<SignIn> {
       return Column(
         children: <Widget>[
           Container(
-            constraints: BoxConstraints(minWidth: double.infinity, minHeight: 190),
-            decoration: new BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage("assets/images/congratulations.png"),
-                fit: BoxFit.cover,
+              constraints: BoxConstraints(minWidth: double.infinity, minHeight: 190),
+              decoration: new BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/images/congratulations.png"),
+                  fit: BoxFit.cover,
+                ),
               ),
-            ),
-            child: null
+              child: null
           ),
           Padding(
-            padding: EdgeInsets.only(top:20,bottom: 10,left: 10,right: 10),
-            child: Center(
-              child: Text(
-                "Selamat Datang",
-                style: TextStyle(fontSize: 25, color: Color.fromRGBO(23, 134, 190, 1)),
-                textAlign: TextAlign.center,
-              ),
-            )
+              padding: EdgeInsets.only(top:20,bottom: 10,left: 10,right: 10),
+              child: Center(
+                child: Text(
+                  "Selamat Datang",
+                  style: TextStyle(fontSize: 25, color: Color.fromRGBO(23, 134, 190, 1)),
+                  textAlign: TextAlign.center,
+                ),
+              )
           ),
           Center(
             child: new ListView(
@@ -99,13 +107,13 @@ class SignInState extends State<SignIn> {
                 padding: const EdgeInsets.only(bottom:10.0),
                 children: [
                   Center(
-                      child: ListTile(
-                        leading: GoogleUserCircleAvatar(
-                          identity: _currentUser,
-                        ),
-                        title: Text(_currentUser.displayName ?? ''),
-                        subtitle: Text(_currentUser.email ?? ''),
+                    child: ListTile(
+                      leading: GoogleUserCircleAvatar(
+                        identity: _currentUser,
                       ),
+                      title: Text(_currentUser.displayName ?? ''),
+                      subtitle: Text(_currentUser.email ?? ''),
+                    ),
                   ),
                 ]
             ),
@@ -158,96 +166,96 @@ class SignInState extends State<SignIn> {
               ),
             ),
             child: Column(
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Center(
-                      child: new Container(
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              new Container(
-                                  width: 100,// Not sure what to put here!
-                                  child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Padding(
-                                        padding: EdgeInsets.all(10.0),
-                                        child: new Image.asset(
-                                          'assets/images/MeetMe.png',
-                                          fit: BoxFit.fill, // I thought this would fill up my Container but it doesn't
-                                        ),
-                                      )
-                                    ],
-                                  )
-                              ),
-                              Padding(
-                                padding: EdgeInsets.only(top:5),
-                                child: Text(
-                                  "Meet Me - Video Conference App",
-                                  style: TextStyle(fontSize: 16, color: Color.fromRGBO(255, 255, 255, 1)),
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Center(
+                        child: new Container(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                new Container(
+                                    width: 100,// Not sure what to put here!
+                                    child: Column(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        Padding(
+                                          padding: EdgeInsets.all(10.0),
+                                          child: new Image.asset(
+                                            'assets/images/MeetMe.png',
+                                            fit: BoxFit.fill, // I thought this would fill up my Container but it doesn't
+                                          ),
+                                        )
+                                      ],
+                                    )
                                 ),
-                              ),
-                              Padding(
-                                  padding: EdgeInsets.only(top:5,bottom:5),
-                                  child: Container(
-                                      width: 250,
-                                      child: Center(
-                                        child: Text(
-                                          "Sudah punya google akun ?\nKlik tombol dibawah untuk masuk akun .",
-                                          style: TextStyle(fontSize: 12, color: Color.fromRGBO(255, 255, 255, 1)),
-                                          textAlign: TextAlign.center,
-                                        ),
-                                      )
-                                  )
-                              )
-                            ],
-                          )
+                                Padding(
+                                  padding: EdgeInsets.only(top:5),
+                                  child: Text(
+                                    "Meet Me - Video Conference App",
+                                    style: TextStyle(fontSize: 16, color: Color.fromRGBO(255, 255, 255, 1)),
+                                  ),
+                                ),
+                                Padding(
+                                    padding: EdgeInsets.only(top:5,bottom:5),
+                                    child: Container(
+                                        width: 250,
+                                        child: Center(
+                                          child: Text(
+                                            "Sudah punya google akun ?\nKlik tombol dibawah untuk masuk akun .",
+                                            style: TextStyle(fontSize: 12, color: Color.fromRGBO(255, 255, 255, 1)),
+                                            textAlign: TextAlign.center,
+                                          ),
+                                        )
+                                    )
+                                )
+                              ],
+                            )
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-              ]
+                    ],
+                  ),
+                ]
             ),
           ),
 
 
           Expanded(
-            flex: 1,
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  Padding(
-                    padding: EdgeInsets.all(10.0),
-                    child: Container(
-                      child: Column(
-                        children: [
-                          autoPlayImage,
-                          Padding(
-                            padding: EdgeInsets.only(top: 15.0, bottom: 10.0),
-                            child: Text(
-                              "Masuk Akun",
-                              style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold, color: Color.fromRGBO(23, 134, 190, 1)),
-                            ),
-                          ),
-                          Padding(
-                            padding: EdgeInsets.only(top: 15.0, bottom: 10.0),
-                            child: Container(
-                              width:200,
-                              child: GestureDetector(
-                                onTap: _handleSignIn,
-                                child: Image.asset('assets/images/login_google_long.png'),
+              flex: 1,
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Container(
+                        child: Column(
+                          children: [
+                            autoPlayImage,
+                            Padding(
+                              padding: EdgeInsets.only(top: 15.0, bottom: 10.0),
+                              child: Text(
+                                "Masuk Akun",
+                                style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold, color: Color.fromRGBO(23, 134, 190, 1)),
                               ),
+                            ),
+                            Padding(
+                                padding: EdgeInsets.only(top: 15.0, bottom: 10.0),
+                                child: Container(
+                                  width:200,
+                                  child: GestureDetector(
+                                    onTap: _handleSignIn,
+                                    child: Image.asset('assets/images/login_google_long.png'),
+                                  ),
+                                )
                             )
-                          )
-                        ],
+                          ],
+                        ),
                       ),
                     ),
-                  ),
-                ],
-              ),
-            )
+                  ],
+                ),
+              )
           ),
 
         ],

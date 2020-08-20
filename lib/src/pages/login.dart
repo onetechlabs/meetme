@@ -5,14 +5,11 @@ import 'package:carousel_slider/carousel_slider.dart';
 import "package:http/http.dart" as http;
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:meet_me/src/pages/google_sign_in.dart';
 import './index.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-GoogleSignIn _googleSignIn = GoogleSignIn(
-  scopes: <String>[
-    'email',
-  ],
-);
+GoogleSignIn _googleSignIn = GoogleSignInBaseConfig.GoogleSignInVar;
 
 class SignIn extends StatefulWidget {
   @override

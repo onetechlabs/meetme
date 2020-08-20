@@ -7,7 +7,10 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import './about_app.dart';
 import './call.dart';
-
+import 'package:google_sign_in/google_sign_in.dart';
+import 'package:meet_me/src/pages/google_sign_in.dart';
+GoogleSignIn _googleSignIn = GoogleSignInBaseConfig.GoogleSignInVar;
+Future<void> _handleSignOut() => _googleSignIn.disconnect();
 class IndexPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => IndexState();
@@ -86,6 +89,8 @@ class IndexState extends State<IndexPage> {
       child: Text("Continue"),
       onPressed:  () {
         Navigator.of(context).pop();
+        Navigator.pop(context);
+        _handleSignOut();
       },
     );
 

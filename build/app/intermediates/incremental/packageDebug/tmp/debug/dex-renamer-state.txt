@@ -1,7 +1,4 @@
-#Thu Aug 20 12:59:57 WIB 2020
-base.0=/home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/app/intermediates/transforms/dexMerger/debug/0
-path.1=classes2.dex
-renamed.1=classes2.dex
+#Tue Sep 15 20:40:40 WIB 2020
+base.0=/Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/app/intermediates/transforms/dexMerger/debug/0

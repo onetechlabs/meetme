@@ -6,23 +6,6 @@ class AboutApp extends StatefulWidget {
   State<StatefulWidget> createState() => AboutAppState();
 }
 
-extension HexColor on Color {
-  /// String is in the format "aabbcc" or "ffaabbcc" with an optional leading "#".
-  static Color fromHex(String hexString) {
-    final buffer = StringBuffer();
-    if (hexString.length == 6 || hexString.length == 7) buffer.write('ff');
-    buffer.write(hexString.replaceFirst('#', ''));
-    return Color(int.parse(buffer.toString(), radix: 16));
-  }
-
-  /// Prefixes a hash sign if [leadingHashSign] is set to `true` (default is `true`).
-  String toHex({bool leadingHashSign = true}) => '${leadingHashSign ? '#' : ''}'
-      '${alpha.toRadixString(16).padLeft(2, '0')}'
-      '${red.toRadixString(16).padLeft(2, '0')}'
-      '${green.toRadixString(16).padLeft(2, '0')}'
-      '${blue.toRadixString(16).padLeft(2, '0')}';
-}
-
 class AboutAppState extends State<AboutApp> {
   @override
   Widget build(BuildContext context) {
@@ -77,7 +60,7 @@ class AboutAppState extends State<AboutApp> {
                                     'Meet Me',
                                     textAlign: TextAlign.center,
                                     overflow: TextOverflow.ellipsis,
-                                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: HexColor.fromHex('#da3e1c')),
+                                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: Color.fromRGBO(218, 62, 28, 1)),
                                   ),
                                 )
                             ],
@@ -107,7 +90,7 @@ class AboutAppState extends State<AboutApp> {
                                 child: Text(
                                   'Video communications, with an easy, reliable cloud platform for video and audio conferencing',
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(fontSize: 14, color: HexColor.fromHex('#a7a7a7')),
+                                  style: TextStyle(fontSize: 14, color: Color.fromRGBO(169, 169, 169, 1)),
                                 ),
                               )
                             ],
@@ -137,7 +120,7 @@ class AboutAppState extends State<AboutApp> {
                                 child: Text(
                                   'Copyright \u00a9 2020 Onetechlabs\nAll right reserved.',
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(fontSize: 16, color: HexColor.fromHex('#a7a7a7')),
+                                  style: TextStyle(fontSize: 16, color: Color.fromRGBO(164, 49, 20, 1)),
                                 ),
                               )
                             ],

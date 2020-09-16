@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
+            "outputFile": "/Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml",
             "map": [
                 {
-                    "source": "/home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/res/values-uz/values.xml",
+                    "source": "/Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/res/values-uz/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2e7f2d4e6b2eaabb20fc1ac2a41c3b3e/res/values-uz/values-uz.xml",
+                    "source": "/Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2f8cb80f2450fbb22499cacb77ebe340/res/values-uz/values-uz.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/6cc71def776d223066c20c3522aefd86/res/values-uz/values.xml",
+                    "source": "/Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/84c6bf3a47711fa8528c171a0a287da3/res/values-uz/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2e7f2d4e6b2eaabb20fc1ac2a41c3b3e/res/values-v21/values-v21.xml",
+                    "source": "/Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2f8cb80f2450fbb22499cacb77ebe340/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

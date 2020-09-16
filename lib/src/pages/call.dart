@@ -129,7 +129,7 @@ class _CallPageState extends State<CallPage> {
   List<Widget> _getRenderViews() {
     final List<AgoraRenderWidget> list = [];
     if (widget.role == ClientRole.Broadcaster) {
-      list.add(AgoraRenderWidget(0, local: true, preview: true));
+      list.add(AgoraRenderWidget(0, local: true));
     }
     _users.forEach((int uid) => list.add(AgoraRenderWidget(uid)));
     return list;

@@ -11,6 +11,12 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:meet_me/src/pages/google_sign_in.dart';
 GoogleSignIn _googleSignIn = GoogleSignInBaseConfig.GoogleSignInVar;
 Future<void> _handleSignOut() => _googleSignIn.disconnect();
+hexStringToHexInt(String hex) {
+  hex = hex.replaceFirst('#', '');
+  hex = hex.length == 6 ? 'ff' + hex : hex;
+  int val = int.parse(hex, radix: 16);
+  return val;
+}
 class IndexPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => IndexState();
@@ -184,14 +190,14 @@ class IndexState extends State<IndexPage> {
                                   padding: EdgeInsets.only(top:5),
                                   child: Text(
                                     _displayname_google,
-                                      style: TextStyle(fontSize: 16, color: Color.fromRGBO(255, 255, 255, 1)),
+                                      style: TextStyle(fontSize: 16, color: Colors.white),
                                   ),
                                 ),
                                 Padding(
                                   padding: EdgeInsets.only(top:5,bottom:5),
                                   child: Text(
                                     _email_google,
-                                    style: TextStyle(fontSize: 12, color: Color.fromRGBO(255, 255, 255, 1)),
+                                    style: TextStyle(fontSize: 12, color: Colors.white),
                                   ),
                                 )
                               ],
@@ -227,7 +233,7 @@ class IndexState extends State<IndexPage> {
                                                 children: [
                                                   Text(
                                                     "Privat Saluran ID\n("+_id_google+")",
-                                                    style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold, color: Color.fromRGBO(23, 134, 190, 1)),
+                                                    style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold, color: Colors.red),
                                                     textAlign: TextAlign.center,
                                                   )
                                                 ],

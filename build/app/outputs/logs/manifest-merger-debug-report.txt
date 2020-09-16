@@ -1,452 +1,462 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
-MERGED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:shared_preferences] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:permission_handler] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:google_sign_in] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.multidex:multidex:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/0b31c988da97a1c77b9545e9b248bec3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-core:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-core-17.0.0.aar/e7cbbd61e9759b6e4dd8fdc0cf9787a1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:17:1-39:12
-MERGED from [com.google.firebase:firebase-analytics:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.0.0.aar/c6a9c9d65350df3765cac2e540d2b8a9/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.0.0.aar/aca4130b0008b50838b056250eef0c20/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-api-phone-16.0.0.aar/90b56ae9fec1a7030dd8b86035ba9035/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/409bc1d165a7da7132d587dcf0d1acb7/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.0.0.aar/ad1ea8e8dbd718acfa87cb0a5ab96534/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/2be2a0ad08ffee822a11a8a64df2ee22/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-common:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/a9f5b5acaaed748d3f74feb87f925b3f/AndroidManifest.xml:2:1-19:12
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/34e1bb3318f687f70ededd740047c5b4/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/3576e83d50574418130081ccd948db45/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/0fd735321a101d3893da1bda7c2ccf06/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/53c677e21419dcfa40e15e34df67f994/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/6cc71def776d223066c20c3522aefd86/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/0a0ba868204663399226fd343d3a2b1e/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/fc7825331ac558978a1505d6109652f1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/414268b574dfb7f2acf008f87be8bcb1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/21ce756c6805dfab3bdf65262d1d49c8/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/0d7c12173c8b6ca1be248df90e9598a1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/f7a66345b2313f64aa04454062024ffa/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2e7f2d4e6b2eaabb20fc1ac2a41c3b3e/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/c5f07b871074655ee5cc8db94d97f398/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/02f8432a618a7aa7b0b76944be9b097c/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/9b16fa37cc2316ecdf3a3599cd1c06de/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/813e9fc0d54d7dd00c949d30adfd3989/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/0e8fc6a03eddc8256a52c81c5618c20a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/0e928efec0777e6c4974f36b7bbe9f1e/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/9346c5f63e6ebdc42b8376f6a452a1a3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/df8397ef4956b740fa0da75a47d810ca/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/f7c4a6482ea11b550772117e2a874134/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/fdaec26d1c9e8689288725af07c08ad4/AndroidManifest.xml:17:1-22:12
-MERGED from [io.agora.rtc:full-sdk:2.9.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/full-sdk-2.9.1.aar/de4518d982a71350fb562920ccaf68ce/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
+ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:shared_preferences] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_sign_in] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-core-17.0.0.aar/2980fdf5c23e9fad92a63e3f55b77654/AndroidManifest.xml:2:1-9:12
+MERGED from [io.agora.rtc:full-sdk:2.8.2] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/full-sdk-2.8.2.aar/d019ee551bdd2a7127a37ae453fda3ed/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-api-phone-16.0.0.aar/758086b16f53beed2ea9845c6016295a/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/6dde600bee24e20b48dd3b5437329045/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.0.0.aar/149c34ab7476ed921979a3963d573450/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.0.0.aar/86e363f300ff3d034382479ef0212898/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.0.0.aar/a4f665ab1b2b62c1620cd2f32d5f3d5c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/9be77ae324ad7e6daff878e97b1716d2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/50454ef137aa1e06f5bba41ec1bad77a/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/d6a96a05a3865937c2478f459f858013/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/d301ad17db06f0a318eab1fd44487152/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/d37fed32000813a4f019133c297e5e04/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/0ec85db4368034fc86e55980eb5dfcdf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/84c6bf3a47711fa8528c171a0a287da3/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/85a028f2a7337918eb128c68c3b98147/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/cb12f2d9811adbe876ed1e6ecf27f5a2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/c6960dd6086ecd244f1088e9a5ffebbb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/b09507d23edd403dfed621a7e4acd8f8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/70421e6cf44fbf2b0256b858fbbd0b8f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/014bbffaed98e62bf90706361b32bc5e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/61a5dc27b33545f66ff1e0a260e52f93/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/88b21bfb04f3e6fb184d91afa31aa689/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/d007084e868ffb5deea1705282ddffdb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/76f32f38cfd1add00d0b79e0fab253cf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/b59a8b9b5dd175e5fde6076e7d5e6940/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2f8cb80f2450fbb22499cacb77ebe340/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/75feb7c5f62f00dca2dfa1ca60a88846/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/9fbab695b92adc2cbf132ee132ffb86a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/4babe0d035f5f79e80cf89601976dec2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/3955869b380b23403b2779e0b3763f09/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/48ded709ee71895d7aabe0ec954a4d6d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/426e65ef648a412ffc6c78ddeedcc908/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/4757a3f6f241d5065d5a26538dfe6b3b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c8a842851e785bcee3ae323f4aa613b8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/d72204b0b42aa6ac99e1621dbb16acef/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/ec5c38cb569149c617419e1f9193fd11/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/ef8887e2ad3914347299f6e04ecbe936/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:2:5-34
-		INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:2:5-34
+		INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
-		INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12
-		INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:8:5-67
-MERGED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
-MERGED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
-MERGED from [:google_sign_in] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
-MERGED from [:google_sign_in] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:23:5-67
+ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:3:22-64
 application
-ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:15:5-42:19
-MERGED from [com.google.firebase:firebase-core:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-core-17.0.0.aar/e7cbbd61e9759b6e4dd8fdc0cf9787a1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-core-17.0.0.aar/e7cbbd61e9759b6e4dd8fdc0cf9787a1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.firebase:firebase-analytics:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.0.0.aar/c6a9c9d65350df3765cac2e540d2b8a9/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-analytics:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.0.0.aar/c6a9c9d65350df3765cac2e540d2b8a9/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.0.0.aar/aca4130b0008b50838b056250eef0c20/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.0.0.aar/aca4130b0008b50838b056250eef0c20/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.0.0.aar/ad1ea8e8dbd718acfa87cb0a5ab96534/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.0.0.aar/ad1ea8e8dbd718acfa87cb0a5ab96534/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/2be2a0ad08ffee822a11a8a64df2ee22/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/2be2a0ad08ffee822a11a8a64df2ee22/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-common:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/a9f5b5acaaed748d3f74feb87f925b3f/AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-common:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/a9f5b5acaaed748d3f74feb87f925b3f/AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/34e1bb3318f687f70ededd740047c5b4/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/34e1bb3318f687f70ededd740047c5b4/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/3576e83d50574418130081ccd948db45/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/3576e83d50574418130081ccd948db45/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/0fd735321a101d3893da1bda7c2ccf06/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/0fd735321a101d3893da1bda7c2ccf06/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/53c677e21419dcfa40e15e34df67f994/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/53c677e21419dcfa40e15e34df67f994/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/6cc71def776d223066c20c3522aefd86/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/6cc71def776d223066c20c3522aefd86/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2e7f2d4e6b2eaabb20fc1ac2a41c3b3e/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2e7f2d4e6b2eaabb20fc1ac2a41c3b3e/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/0e928efec0777e6c4974f36b7bbe9f1e/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/0e928efec0777e6c4974f36b7bbe9f1e/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:9:5-32:19
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-core-17.0.0.aar/2980fdf5c23e9fad92a63e3f55b77654/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-core-17.0.0.aar/2980fdf5c23e9fad92a63e3f55b77654/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.0.0.aar/149c34ab7476ed921979a3963d573450/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.0.0.aar/149c34ab7476ed921979a3963d573450/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.0.0.aar/86e363f300ff3d034382479ef0212898/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.0.0.aar/86e363f300ff3d034382479ef0212898/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.0.0.aar/a4f665ab1b2b62c1620cd2f32d5f3d5c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.0.0.aar/a4f665ab1b2b62c1620cd2f32d5f3d5c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/9be77ae324ad7e6daff878e97b1716d2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/9be77ae324ad7e6daff878e97b1716d2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/50454ef137aa1e06f5bba41ec1bad77a/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/50454ef137aa1e06f5bba41ec1bad77a/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/d6a96a05a3865937c2478f459f858013/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/d6a96a05a3865937c2478f459f858013/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/d301ad17db06f0a318eab1fd44487152/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/d301ad17db06f0a318eab1fd44487152/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/d37fed32000813a4f019133c297e5e04/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/d37fed32000813a4f019133c297e5e04/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/0ec85db4368034fc86e55980eb5dfcdf/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/0ec85db4368034fc86e55980eb5dfcdf/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/84c6bf3a47711fa8528c171a0a287da3/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/84c6bf3a47711fa8528c171a0a287da3/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2f8cb80f2450fbb22499cacb77ebe340/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2f8cb80f2450fbb22499cacb77ebe340/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/75feb7c5f62f00dca2dfa1ca60a88846/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/75feb7c5f62f00dca2dfa1ca60a88846/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2e7f2d4e6b2eaabb20fc1ac2a41c3b3e/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2f8cb80f2450fbb22499cacb77ebe340/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:18:9-32
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:11:9-32
 	android:icon
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:17:9-43
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:12:9-43
 	android:name
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:16:9-57
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:10:9-57
 activity#com.example.meet_me.MainActivity
-ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:19:9-41:20
+ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:13:9-31:20
 	android:launchMode
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:23:13-43
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:15:13-43
 	android:hardwareAccelerated
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:22:13-47
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:18:13-47
 	android:windowSoftInputMode
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:25:13-55
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:19:13-55
 	android:configChanges
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:21:13-137
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:17:13-144
 	android:theme
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:24:13-47
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:16:13-47
 	android:name
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:20:13-41
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:14:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:30:13-32:40
+ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:24:13-26:40
 	android:value
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:32:17-37
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:26:17-37
 	android:name
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:31:17-82
-meta-data#flutterEmbedding
-ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:33:13-35:37
-	android:value
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:35:17-34
-	android:name
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:34:17-48
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:25:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:37:13-40:29
+ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:38:17-69
+ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:28:17-68
 	android:name
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:39:17-77
+ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:39:27-74
+		ADDED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml:29:27-74
 uses-sdk
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
-MERGED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [androidx.multidex:multidex:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/0b31c988da97a1c77b9545e9b248bec3/AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/0b31c988da97a1c77b9545e9b248bec3/AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-core:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-core-17.0.0.aar/e7cbbd61e9759b6e4dd8fdc0cf9787a1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-core-17.0.0.aar/e7cbbd61e9759b6e4dd8fdc0cf9787a1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.0.0.aar/c6a9c9d65350df3765cac2e540d2b8a9/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-analytics:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.0.0.aar/c6a9c9d65350df3765cac2e540d2b8a9/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.0.0.aar/aca4130b0008b50838b056250eef0c20/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.0.0.aar/aca4130b0008b50838b056250eef0c20/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-api-phone-16.0.0.aar/90b56ae9fec1a7030dd8b86035ba9035/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-api-phone-16.0.0.aar/90b56ae9fec1a7030dd8b86035ba9035/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/409bc1d165a7da7132d587dcf0d1acb7/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/409bc1d165a7da7132d587dcf0d1acb7/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.0.0.aar/ad1ea8e8dbd718acfa87cb0a5ab96534/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.0.0.aar/ad1ea8e8dbd718acfa87cb0a5ab96534/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/2be2a0ad08ffee822a11a8a64df2ee22/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/2be2a0ad08ffee822a11a8a64df2ee22/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/a9f5b5acaaed748d3f74feb87f925b3f/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/a9f5b5acaaed748d3f74feb87f925b3f/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/34e1bb3318f687f70ededd740047c5b4/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/34e1bb3318f687f70ededd740047c5b4/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/3576e83d50574418130081ccd948db45/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/3576e83d50574418130081ccd948db45/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/0fd735321a101d3893da1bda7c2ccf06/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/0fd735321a101d3893da1bda7c2ccf06/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/53c677e21419dcfa40e15e34df67f994/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/53c677e21419dcfa40e15e34df67f994/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/6cc71def776d223066c20c3522aefd86/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/6cc71def776d223066c20c3522aefd86/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/0a0ba868204663399226fd343d3a2b1e/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/0a0ba868204663399226fd343d3a2b1e/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/fc7825331ac558978a1505d6109652f1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/fc7825331ac558978a1505d6109652f1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/414268b574dfb7f2acf008f87be8bcb1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/414268b574dfb7f2acf008f87be8bcb1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/21ce756c6805dfab3bdf65262d1d49c8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/21ce756c6805dfab3bdf65262d1d49c8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/0d7c12173c8b6ca1be248df90e9598a1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/0d7c12173c8b6ca1be248df90e9598a1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/f7a66345b2313f64aa04454062024ffa/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/f7a66345b2313f64aa04454062024ffa/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2e7f2d4e6b2eaabb20fc1ac2a41c3b3e/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2e7f2d4e6b2eaabb20fc1ac2a41c3b3e/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/c5f07b871074655ee5cc8db94d97f398/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/c5f07b871074655ee5cc8db94d97f398/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/02f8432a618a7aa7b0b76944be9b097c/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/02f8432a618a7aa7b0b76944be9b097c/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/9b16fa37cc2316ecdf3a3599cd1c06de/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/9b16fa37cc2316ecdf3a3599cd1c06de/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/813e9fc0d54d7dd00c949d30adfd3989/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/813e9fc0d54d7dd00c949d30adfd3989/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/0e8fc6a03eddc8256a52c81c5618c20a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/0e8fc6a03eddc8256a52c81c5618c20a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/0e928efec0777e6c4974f36b7bbe9f1e/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/0e928efec0777e6c4974f36b7bbe9f1e/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/9346c5f63e6ebdc42b8376f6a452a1a3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/9346c5f63e6ebdc42b8376f6a452a1a3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/df8397ef4956b740fa0da75a47d810ca/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/df8397ef4956b740fa0da75a47d810ca/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/f7c4a6482ea11b550772117e2a874134/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/f7c4a6482ea11b550772117e2a874134/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/fdaec26d1c9e8689288725af07c08ad4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/fdaec26d1c9e8689288725af07c08ad4/AndroidManifest.xml:20:5-44
-MERGED from [io.agora.rtc:full-sdk:2.9.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/full-sdk-2.9.1.aar/de4518d982a71350fb562920ccaf68ce/AndroidManifest.xml:7:5-9:41
-MERGED from [io.agora.rtc:full-sdk:2.9.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/full-sdk-2.9.1.aar/de4518d982a71350fb562920ccaf68ce/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml
+MERGED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-core-17.0.0.aar/2980fdf5c23e9fad92a63e3f55b77654/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-core-17.0.0.aar/2980fdf5c23e9fad92a63e3f55b77654/AndroidManifest.xml:5:5-44
+MERGED from [io.agora.rtc:full-sdk:2.8.2] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/full-sdk-2.8.2.aar/d019ee551bdd2a7127a37ae453fda3ed/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:full-sdk:2.8.2] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/full-sdk-2.8.2.aar/d019ee551bdd2a7127a37ae453fda3ed/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-api-phone-16.0.0.aar/758086b16f53beed2ea9845c6016295a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-api-phone-16.0.0.aar/758086b16f53beed2ea9845c6016295a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/6dde600bee24e20b48dd3b5437329045/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/6dde600bee24e20b48dd3b5437329045/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.0.0.aar/149c34ab7476ed921979a3963d573450/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.0.0.aar/149c34ab7476ed921979a3963d573450/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.0.0.aar/86e363f300ff3d034382479ef0212898/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.0.0.aar/86e363f300ff3d034382479ef0212898/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.0.0.aar/a4f665ab1b2b62c1620cd2f32d5f3d5c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.0.0.aar/a4f665ab1b2b62c1620cd2f32d5f3d5c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/9be77ae324ad7e6daff878e97b1716d2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/9be77ae324ad7e6daff878e97b1716d2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/50454ef137aa1e06f5bba41ec1bad77a/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/50454ef137aa1e06f5bba41ec1bad77a/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/d6a96a05a3865937c2478f459f858013/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/d6a96a05a3865937c2478f459f858013/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/d301ad17db06f0a318eab1fd44487152/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/d301ad17db06f0a318eab1fd44487152/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/d37fed32000813a4f019133c297e5e04/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/d37fed32000813a4f019133c297e5e04/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/0ec85db4368034fc86e55980eb5dfcdf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/0ec85db4368034fc86e55980eb5dfcdf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/84c6bf3a47711fa8528c171a0a287da3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/84c6bf3a47711fa8528c171a0a287da3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/85a028f2a7337918eb128c68c3b98147/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/85a028f2a7337918eb128c68c3b98147/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/cb12f2d9811adbe876ed1e6ecf27f5a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/cb12f2d9811adbe876ed1e6ecf27f5a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/c6960dd6086ecd244f1088e9a5ffebbb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/c6960dd6086ecd244f1088e9a5ffebbb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/b09507d23edd403dfed621a7e4acd8f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/b09507d23edd403dfed621a7e4acd8f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/70421e6cf44fbf2b0256b858fbbd0b8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/70421e6cf44fbf2b0256b858fbbd0b8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/014bbffaed98e62bf90706361b32bc5e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/014bbffaed98e62bf90706361b32bc5e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/61a5dc27b33545f66ff1e0a260e52f93/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/61a5dc27b33545f66ff1e0a260e52f93/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/88b21bfb04f3e6fb184d91afa31aa689/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/88b21bfb04f3e6fb184d91afa31aa689/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/d007084e868ffb5deea1705282ddffdb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/d007084e868ffb5deea1705282ddffdb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/76f32f38cfd1add00d0b79e0fab253cf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/76f32f38cfd1add00d0b79e0fab253cf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/b59a8b9b5dd175e5fde6076e7d5e6940/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/b59a8b9b5dd175e5fde6076e7d5e6940/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2f8cb80f2450fbb22499cacb77ebe340/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2f8cb80f2450fbb22499cacb77ebe340/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/75feb7c5f62f00dca2dfa1ca60a88846/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/75feb7c5f62f00dca2dfa1ca60a88846/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/9fbab695b92adc2cbf132ee132ffb86a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/9fbab695b92adc2cbf132ee132ffb86a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/4babe0d035f5f79e80cf89601976dec2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/4babe0d035f5f79e80cf89601976dec2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/3955869b380b23403b2779e0b3763f09/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/3955869b380b23403b2779e0b3763f09/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/48ded709ee71895d7aabe0ec954a4d6d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/48ded709ee71895d7aabe0ec954a4d6d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/426e65ef648a412ffc6c78ddeedcc908/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/426e65ef648a412ffc6c78ddeedcc908/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/4757a3f6f241d5065d5a26538dfe6b3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/4757a3f6f241d5065d5a26538dfe6b3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c8a842851e785bcee3ae323f4aa613b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c8a842851e785bcee3ae323f4aa613b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/d72204b0b42aa6ac99e1621dbb16acef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/d72204b0b42aa6ac99e1621dbb16acef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/ec5c38cb569149c617419e1f9193fd11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/ec5c38cb569149c617419e1f9193fd11/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/ef8887e2ad3914347299f6e04ecbe936/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/ef8887e2ad3914347299f6e04ecbe936/AndroidManifest.xml:20:5-44
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+		ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
 uses-permission#android.permission.CAMERA
-ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
+ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-62
+		ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-62
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-80
+ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-77
+		ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:22:5-79
+ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
+		ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-78
+		ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-78
 uses-permission#android.permission.BLUETOOTH
-ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-68
+ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-68
 	android:name
-		ADDED from [:agora_rtc_engine] /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-65
+		ADDED from [:agora_rtc_engine] /Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/onetechlabs/Public/Programming-Projects/Android/meetme_android/android/app/src/main/AndroidManifest.xml:1:1-43:12 reason: io.agora.agorartcengine requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/onetechlabs/Public/Projects/MobileApps/meet_me/android/app/src/debug/AndroidManifest.xml:1:1-7:12 reason: io.agora.agorartcengine requested WRITE_EXTERNAL_STORAGE
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/46b885d28b70eb7fd2f205c9474ba7ed/AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/33ce87a8ff838b6fa98c5224b3c76f46/AndroidManifest.xml:34:13-89
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:24:5-68
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:25:22-65
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:25:22-65
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:26:5-110
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:26:5-110
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:26:22-107
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:26:22-107
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:29:9-33:20
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:29:9-33:20
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:31:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:30:13-85
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:30:13-85
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:34:9-42:20
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/aa45f70d6059bac93b8a31d167dff5a4/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/b3dc4f7d680c284f6bf68ba739a3cb39/AndroidManifest.xml:29:9-37:20
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.0.0.aar/df57bb3d91aed2ec360bc793c502b88f/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.0.0.aar/41c2ec905b7dfb8f9b35b3a80639e48f/AndroidManifest.xml:29:9-37:20
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:36:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:36:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:37:13-36
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:38:13-69
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:38:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:35:13-100
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:35:13-100
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:39:13-41:29
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:39:13-41:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:40:17-79
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:40:17-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:40:25-76
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:40:25-76
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:44:9-47:40
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:44:9-47:40
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:46:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:46:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:47:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:45:13-84
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:45:13-84
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:48:9-52:72
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:48:9-52:72
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:50:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:50:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:51:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:51:13-37
 	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:52:13-69
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:52:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/1a5c09598bee45e51ebeec57aea25f31/AndroidManifest.xml:49:13-87
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.0.0.aar/55998e5e4bbd30c597993735be948e92/AndroidManifest.xml:49:13-87
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:29:13-37
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:28:13-84
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:28:13-84
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:30:13-32:85
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:30:13-32:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:32:17-82
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:32:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/70d7a2626f814a702c5c8dc028cc35f9/AndroidManifest.xml:31:17-139
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.0.0.aar/7c0ce2ce12cece2b951cdd179584ad51/AndroidManifest.xml:31:17-139
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:26:22-79
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/ed238305e436475573ce35f4e0fe1caf/AndroidManifest.xml:42:25-78
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/18647ad72a8b486980224c30f45a9185/AndroidManifest.xml:42:25-78
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/a9f5b5acaaed748d3f74feb87f925b3f/AndroidManifest.xml:12:9-16:39
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/50454ef137aa1e06f5bba41ec1bad77a/AndroidManifest.xml:12:9-16:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/a9f5b5acaaed748d3f74feb87f925b3f/AndroidManifest.xml:14:13-72
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/50454ef137aa1e06f5bba41ec1bad77a/AndroidManifest.xml:14:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/a9f5b5acaaed748d3f74feb87f925b3f/AndroidManifest.xml:15:13-37
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/50454ef137aa1e06f5bba41ec1bad77a/AndroidManifest.xml:15:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/a9f5b5acaaed748d3f74feb87f925b3f/AndroidManifest.xml:16:13-36
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/50454ef137aa1e06f5bba41ec1bad77a/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/a9f5b5acaaed748d3f74feb87f925b3f/AndroidManifest.xml:13:13-77
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/firebase-common-18.0.0.aar/50454ef137aa1e06f5bba41ec1bad77a/AndroidManifest.xml:13:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/6cc71def776d223066c20c3522aefd86/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/84c6bf3a47711fa8528c171a0a287da3/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/6cc71def776d223066c20c3522aefd86/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/84c6bf3a47711fa8528c171a0a287da3/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/6cc71def776d223066c20c3522aefd86/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/84c6bf3a47711fa8528c171a0a287da3/AndroidManifest.xml:24:13-58

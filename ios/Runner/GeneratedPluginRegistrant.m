@@ -3,30 +3,10 @@
 //
 
 #import "GeneratedPluginRegistrant.h"
-
-#if __has_include(<agora_rtc_engine/AgoraRtcEnginePlugin.h>)
 #import <agora_rtc_engine/AgoraRtcEnginePlugin.h>
-#else
-@import agora_rtc_engine;
-#endif
-
-#if __has_include(<google_sign_in/FLTGoogleSignInPlugin.h>)
-#import <google_sign_in/FLTGoogleSignInPlugin.h>
-#else
-@import google_sign_in;
-#endif
-
-#if __has_include(<permission_handler/PermissionHandlerPlugin.h>)
+#import <google_sign_in/GoogleSignInPlugin.h>
 #import <permission_handler/PermissionHandlerPlugin.h>
-#else
-@import permission_handler;
-#endif
-
-#if __has_include(<shared_preferences/FLTSharedPreferencesPlugin.h>)
-#import <shared_preferences/FLTSharedPreferencesPlugin.h>
-#else
-@import shared_preferences;
-#endif
+#import <shared_preferences/SharedPreferencesPlugin.h>
 
 @implementation GeneratedPluginRegistrant
 

@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/onetechlabs/Public/Programming-Projects/Android/meetme_android/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
+            "outputFile": "/Users/onetechlabs/Public/Projects/MobileApps/meet_me/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
             "map": [
                 {
-                    "source": "/home/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/6cc71def776d223066c20c3522aefd86/res/values-el/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "222",
-                        "endOffsets": "469"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1332",
-                        "endColumns": "222",
-                        "endOffsets": "1550"
-                    }
-                },
-                {
-                    "source": "/home/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2e7f2d4e6b2eaabb20fc1ac2a41c3b3e/res/values-el/values-el.xml",
+                    "source": "/Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/2f8cb80f2450fbb22499cacb77ebe340/res/values-el/values-el.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/093ce2c546394ef79212b27c914da950/res/values-el/values.xml",
+                    "source": "/Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/9c4441ce783c73eb2ec276f8fe8b9577/res/values-el/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "105,218,436,570,683,923,1050,1198,1555,1803,1913,2114,2245,2482,2657,2756,2848",
                         "endColumns": "112,217,133,112,239,126,147,133,247,109,200,130,236,174,98,91,111",
                         "endOffsets": "213,431,565,678,918,1045,1193,1327,1798,1908,2109,2240,2477,2652,2751,2843,2955"
+                    }
+                },
+                {
+                    "source": "/Users/onetechlabs/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/84c6bf3a47711fa8528c171a0a287da3/res/values-el/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "222",
+                        "endOffsets": "469"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1332",
+                        "endColumns": "222",
+                        "endOffsets": "1550"
                     }
                 }
             ]

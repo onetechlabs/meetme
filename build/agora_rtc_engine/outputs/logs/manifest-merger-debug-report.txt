@@ -1,47 +1,47 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:1:1-10:12
-INJECTED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:1:1-10:12
-INJECTED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:1:1-10:12
+ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:1:1-10:12
 	package
-		ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:2:3-36
-		INJECTED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml
-		INJECTED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml
+		ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:2:3-36
+		INJECTED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:3:5-67
+ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:3:5-67
 	android:name
-		ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:3:22-64
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:4:5-71
+ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:4:5-71
 	android:name
-		ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:4:22-68
+		ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:4:22-68
 uses-permission#android.permission.CAMERA
-ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:5:5-65
+ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:5:22-62
+		ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:5:22-62
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:6:5-80
+ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:6:22-77
+		ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:6:22-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:7:5-79
+ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:7:22-76
+		ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:8:5-81
+ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:8:22-78
 uses-permission#android.permission.BLUETOOTH
-ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:9:5-68
+ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:9:5-68
 	android:name
-		ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml:9:22-65
+		ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml:9:22-65
 uses-sdk
-INJECTED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml
-INJECTED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml
+INJECTED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml
+INJECTED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml
-		ADDED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml
-		INJECTED from /home/onetechlabs/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-1.0.5/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml
+		ADDED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/onetechlabs/Library/Flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-0.9.9/android/src/main/AndroidManifest.xml
